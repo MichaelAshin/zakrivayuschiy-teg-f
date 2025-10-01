@@ -1,0 +1,14 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+  --accent-font: "PressStart2P", sans-serif;
+  --main-font: "Inter-Variable", sans-serif;
+  --main-font-weight: 410;
+  --header-font-weight: 715;
+  --block-width: clamp(40vw, 700px, 100vw);
+  --text-border-color: #fff;
+  --button-text-color: #fff;
+  --heart-contour-color: #000;
+  --animation-fill-color: #f00;
+  --animation-hover-color: #000;
+}
